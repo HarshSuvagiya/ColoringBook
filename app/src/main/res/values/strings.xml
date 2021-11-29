@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ColoringBook</string>
+    <string name="privacy_policy">https://sites.google.com/view/charging-siren/home</string>
+    <string name="no_internet">Please Connect to Internet</string>
+    <string name="YOUR_ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="categories">Categories</string>
+</resources>
