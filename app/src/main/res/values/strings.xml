@@ -4,4 +4,9 @@
     <string name="no_internet">Please Connect to Internet</string>
     <string name="YOUR_ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
     <string name="categories">Categories</string>
+    <string name="images">Images</string>
+    <string name="collections">Collections</string>
+    <string name="preview">Preview</string>
+    <string name="are_you_sure_want_to_delete">Are you sure want to delete?</string>
+    <string name="are_you_sure_want_to_exit">Are you sure want to exit?</string>
 </resources>

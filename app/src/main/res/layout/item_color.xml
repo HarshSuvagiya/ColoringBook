@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pencil_a"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:src="@drawable/pencil_a"
+        app:layout_constraintDimensionRatio="1:2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pencil_b"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:src="@drawable/pencil_b"
+        android:translationX="0.9dp"
+        android:tint="@color/pink_50"
+        app:layout_constraintDimensionRatio="1:2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

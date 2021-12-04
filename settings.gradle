@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ColoringBook"
 include ':app'
+include ':draw'

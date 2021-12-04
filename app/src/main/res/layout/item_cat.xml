@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/cat_name_height"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:backgroundTint="@color/white"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="5dp"
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             android:src="@color/white" />
 
     </androidx.cardview.widget.CardView>

@@ -4,35 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".category.CategoryActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <include
         android:id="@+id/topbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/rectangle_2"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/topbar2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/rectangle_1"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="@id/topbar2"
-        app:layout_constraintLeft_toLeftOf="@id/topbar2"
-        app:layout_constraintTop_toTopOf="@id/topbar2" />
+        layout="@layout/top_bar" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/catRecycler"
@@ -42,18 +19,6 @@
         android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toTopOf="@id/ad_view_container"
         app:layout_constraintTop_toBottomOf="@+id/topbar" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/categories"
-        android:textAllCaps="true"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="@id/topbar2"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@id/topbar2" />
 
     <FrameLayout
         android:id="@+id/ad_view_container"

@@ -1,10 +1,40 @@
 {
   "project_info": {
     "project_number": "751798227044",
+    "firebase_url": "https://kidslearn-41d6f-default-rtdb.firebaseio.com",
     "project_id": "kidslearn-41d6f",
     "storage_bucket": "kidslearn-41d6f.appspot.com"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751798227044:android:48b0073b37c2065241cf71",
+        "android_client_info": {
+          "package_name": "com.scorpion.coloringbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751798227044-4v0s47uvaucn39qc095ek6lt1eto11mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHC4V2xlXgsaA3TmZQ247kg2sWjfOqG94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751798227044-4v0s47uvaucn39qc095ek6lt1eto11mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:751798227044:android:d9bc6ff1857baad441cf71",
