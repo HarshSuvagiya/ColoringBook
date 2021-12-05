@@ -19,6 +19,7 @@ import java.lang.Exception
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.SeekBar
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.bumptech.glide.request.target.BitmapImageViewTarget
@@ -156,7 +157,9 @@ class EditorActivity : BaseActivity(), GetItemClick {
             val ostream = FileOutputStream(file)
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, ostream)
             ostream.close()
+            Toast.makeText(applicationContext, getString(R.string.saved), Toast.LENGTH_SHORT).show()
         } catch (e: Exception) {
+            Toast.makeText(applicationContext, getString(R.string.exe), Toast.LENGTH_SHORT).show()
         }
     }
 

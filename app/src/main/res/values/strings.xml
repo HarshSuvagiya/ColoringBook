@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ColoringBook</string>
-    <string name="privacy_policy">https://sites.google.com/view/charging-siren/home</string>
-    <string name="no_internet">Please Connect to Internet</string>
+    <string name="privacy_policy">https://sites.google.com/view/coloringbookforkids/home</string>
+    <string name="no_internet">Please connect to internet</string>
     <string name="YOUR_ADMOB_APP_ID">ca-app-pub-3940256099942544~3347511713</string>
     <string name="categories">Categories</string>
     <string name="images">Images</string>
@@ -9,4 +9,6 @@
     <string name="preview">Preview</string>
     <string name="are_you_sure_want_to_delete">Are you sure want to delete?</string>
     <string name="are_you_sure_want_to_exit">Are you sure want to exit?</string>
+    <string name="saved">Saved successfully</string>
+    <string name="exe">Something went wrong</string>
 </resources>

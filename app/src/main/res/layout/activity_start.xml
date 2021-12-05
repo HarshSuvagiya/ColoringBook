@@ -19,8 +19,9 @@
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
         android:layout_marginTop="@dimen/play_btn_margin"
         android:src="@drawable/play"
         app:layout_constraintBottom_toTopOf="@id/board"
