@@ -65,6 +65,8 @@ class EditorActivity : BaseActivity(), GetItemClick {
     }
 
     private fun setListenerForStrokeWidth() {
+        binding.drawView.setStrokeWidth(17F)
+        setSizeForActualStrokeIndicator(17)
         binding.drawView.setColor(ContextCompat.getColor(applicationContext, R.color.red_50))
         binding.strokeWidth.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
