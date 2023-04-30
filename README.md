@@ -12,7 +12,8 @@ Coloring book for kids.
 <li> Fruits </li>
 </ul>
 
-Google Admon integrated.\n
+Google Admob integrated.
+
 User can share their final image on social media.
 
 ## Social Media
