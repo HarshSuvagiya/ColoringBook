@@ -2,7 +2,7 @@
 
 Coloring book for kids.
 
-## Screenshots
+## Screenshot
 <img src="ColoringBook.png">
 
 ## Category:
