@@ -2,6 +2,9 @@
 
 Coloring book for kids.
 
+## Screenshots
+<img src="ColoringBook.png">
+
 ## Category:
 <ul>
 <li> Cartoon </li>
